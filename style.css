@@ -149,12 +149,27 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
     padding: 2%;
 }
 
-.title {
-    font-size: 2rem;
-}
+
+
+h1.title {
+    font-size: 5rem;
+    font-family: "Prompt", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+    background: url(/images/rebecca-Ko6XKSsO4w8-unsplash.jpg) 0 0 / cover no-repeat;
+    color: #de466c;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ 
+ 
 
 .title2 {
     font-size: 1.8rem;
@@ -175,7 +190,12 @@ header {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-family: "Prompt", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
 }
 
 a:hover {
@@ -212,7 +232,7 @@ main {
 .darkBox {
     position: relative;
     z-index: 0;
-    opacity: 0.8;
+    padding: 1rem;
 }
 
 .lightBox {
@@ -222,7 +242,7 @@ main {
     width: 300px;
     height: 300px;
     border-radius: 2px;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.404), 0px 0px 4px rgba(0, 0, 0, 0.404);
+    padding: 1rem;
 }
 
 .mediumBox {
@@ -231,12 +251,21 @@ main {
     width: 300px;
     height: 300px;
     border-radius: 2px;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.404), 0px 0px 4px rgba(0, 0, 0, 0.404);
+    padding: 1rem;
 }
 
-.box:hover {
-    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.404), inset 0px 0px 4px rgba(0, 0, 0, 0.404);
 
+.innerDiv {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 5px solid white;
+    padding: 5px;
+}
+
+.divider {
+    border-top: 1px solid #186823;
+    width: 70%;
 }
 
 .img-div1 {
