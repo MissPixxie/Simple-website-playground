@@ -140,194 +140,222 @@ table {
 
 /*RESET ENDS HERE*/
 
-
 body {
-    background-image: linear-gradient("white", "gray");
-    font-size: 18px;
-    font-family: 'Montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    box-sizing: border-box;
+  background-image: linear-gradient("white", "gray");
+  font-size: 18px;
+  font-family: "Montserrat", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  box-sizing: border-box;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
 }
 
-
-
 h1.title {
-    font-size: 5rem;
-    font-family: "Prompt", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    text-transform: uppercase;
-    background: url(/images/rebecca-Ko6XKSsO4w8-unsplash.jpg) 0 0 / cover no-repeat;
-    color: #de466c;
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
- }
- 
- 
+  font-size: 5rem;
+  font-family: "Prompt", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
+  background: url(/images/rebecca-Ko6XKSsO4w8-unsplash-kopia.jpg) 0 0 / cover
+    no-repeat;
+  color: #de466c;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .title2 {
-    font-size: 1.8rem;
-    line-height: 3rem;
+  font-size: 1.8rem;
+  line-height: 3rem;
 }
 
 .navigation {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 15px 0px 55px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 15px 0px 55px 0px;
 }
 
 .navigation li {
-    display: inline;
-    margin: 0px 15px 0px 15px;
+  display: inline;
+  margin: 0px 15px 0px 15px;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 1.3rem;
-    font-family: "Prompt", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    text-transform: uppercase;
+.navigationLinks li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  font-family: "Prompt", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
-a:hover {
-    text-decoration: underline;
-    color: green;
+.innerDiv a:hover {
+  text-decoration: underline;
+  color: green;
 }
 
 a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    background-image: linear-gradient("white", "gray");
-    row-gap: 5rem;
-    line-height: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient("white", "gray");
+  row-gap: 5rem;
+  line-height: 1.8rem;
 }
 
 .sectionAfterHeader {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .boxContainer {
-    min-height: 600px;
-    flex-grow: 2;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  min-height: 600px;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .darkBox {
-    position: relative;
-    z-index: 0;
-    padding: 1rem;
+  position: relative;
+  z-index: 0;
+  padding: 1rem;
 }
 
 .lightBox {
-    position: absolute;
-    align-self: center;
-    z-index: 2;
-    width: 300px;
-    height: 300px;
-    border-radius: 2px;
-    padding: 1rem;
+  position: absolute;
+  align-self: center;
+  z-index: 2;
+  width: 300px;
+  height: 300px;
+  border-radius: 2px;
+  padding: 1rem;
 }
 
 .mediumBox {
-    align-self: flex-end;
-    z-index: 1;
-    width: 300px;
-    height: 300px;
-    border-radius: 2px;
-    padding: 1rem;
+  align-self: flex-end;
+  z-index: 1;
+  width: 300px;
+  height: 300px;
+  border-radius: 2px;
+  padding: 1rem;
+  margin-bottom: 15px;
 }
 
-
-.innerDiv {
+/* .innerDiv {
     position: relative;
     width: 100%;
     height: 100%;
     border: 5px solid white;
     padding: 5px;
-}
+} */
 
 .divider {
-    border-top: 1px solid #186823;
-    width: 70%;
+  border-top: 1px solid #186823;
+  width: 70%;
 }
 
 .img-div1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .firstText {
-    width: 60%;
+  width: 60%;
 }
 
 .img-div2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .informationStuff {
-    background-color: antiquewhite;
-    padding: 2%;
-    width: 50%;
-    border-radius: 15px;
-    position: absolute;
-    z-index: 2;
-    align-self: center;
-    margin-bottom: 10%;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.219), 0px 0px 4px rgba(0, 0, 0, 0.219);
+  background-color: antiquewhite;
+  padding: 2%;
+  width: 50%;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 2;
+  align-self: center;
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.219), 0px 0px 4px rgba(0, 0, 0, 0.219);
 }
 
-
 footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-image: linear-gradient(to bottom right, rgba(250, 235, 215, 0.705), white);
-    line-height: 1.5rem;
-    color: rgb(175, 175, 175);
-    padding: 2% 0 2% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(250, 235, 215, 0.705),
+    white
+  );
+  line-height: 1.5rem;
+  color: rgb(175, 175, 175);
+  padding: 2% 0 2% 0;
 }
 
 /*IMAGES*/
 
-.hanging-plant {
-    max-width: 40%;
-    height: auto;
+.hangingPlant {
+  max-width: 80%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+  top: 180px;
+  filter: drop-shadow(10px 3px 12px rgba(0, 0, 0, 0.342));
+  transform: rotate(0deg);
+  animation: swing 3s infinite alternate linear;
 }
 
-.boxShadow {
-    position: relative;
-    box-shadow: 0 0 10px 6px white inset;
-    z-index: 1;
+.hangingPlantBlog {
+  max-width: 80%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+  top: -50px;
+  right: 50px;
+  filter: drop-shadow(10px 3px 12px rgba(0, 0, 0, 0.342));
+  transform: rotate(0deg);
+  animation: swing 3s infinite alternate linear;
 }
+
+@keyframes swing {
+  0% {
+    transform: translateY(0px) rotateZ(0deg);
+  }
+  100% {
+    transform: translateY(0px) rotateZ(3deg);
+  }
+}
+
+/* .boxShadow {
+  position: relative;
+  box-shadow: 0 0 10px 6px white inset;
+  z-index: 1;
+} */
 
 .monstera {
-    max-width: 30%;
-    height: auto;
-    box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2), inset 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
-    position: relative;
-    z-index: -1;
-    /*box-shadow: 0 0 8px 855px white inset;
+  max-width: 30%;
+  height: auto;
+  box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    inset 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  z-index: -1;
+  /*box-shadow: 0 0 8px 855px white inset;
     -moz-box-shadow:
     0px 0px 5px rgba(49, 49, 49, 0.2),
 inset 0px 0px 355px rgba(255, 255, 255, 0.836);
@@ -337,28 +365,67 @@ inset 0px 0px 355px rgba(255, 255, 255, 0.836); INNER SHADOW */
 }
 
 .roomImg {
-    max-width: 100%;
-    position: relative;
-    z-index: 1;
-    margin-bottom: 0%;
+  max-width: 100%;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0%;
 }
 
 /*BLOG*/
 
 .post {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.blogContentHeader {
+  display: flex;
+  flex-direction: column;
 }
 
 .postContainer {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.links li {
-    display: inline;
+.blogLinks {
+  display: flex;
+  flex-direction: row;
+}
+
+.blogLinks li {
+  display: inline;
+  color: "black";
+  font-size: 400;
+}
+
+.blogLinks li a {
+  color: "black";
+  font-size: 400;
+  text-decoration: none;
+}
+
+.blogLinks li a:hover {
+  color: "green";
+  font-size: 400;
+  text-decoration: none;
+}
+
+.blogLinks li a:visited {
+  color: "purple";
+  text-decoration: underline;
+}
+
+.blogLinks li:last-of-type {
+  align-self: flex-end;
+}
+
+.divider {
+  background-color: rgb(66, 66, 66);
+  width: 35%;
+  height: 1px;
 }
